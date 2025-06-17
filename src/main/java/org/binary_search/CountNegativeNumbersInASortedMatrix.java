@@ -2,7 +2,7 @@ package org.binary_search;
 
 public class CountNegativeNumbersInASortedMatrix {
 
-    //Если элемент отрицательный, то все элементы под ним, в этом столбце, отрицательные
+    //Если элемент отрицательный, то все элементы под ним, в этом столбце,  отрицательные
     public int countNegatives(int[][] grid) {
         int size = grid.length;
         int high = 0;

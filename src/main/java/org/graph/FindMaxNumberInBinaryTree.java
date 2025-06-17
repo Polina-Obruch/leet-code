@@ -29,7 +29,7 @@ public class FindMaxNumberInBinaryTree {
 
         if (left != null) {
             int leftMax = treeSolution(left);
-            if ( leftMax > max ) {
+            if (leftMax > max ) {
                 max = leftMax;
             }
         }
